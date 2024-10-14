@@ -29,7 +29,7 @@ async def connect_to_openai_websocket(audio_event):
             response_message = {
                 "type": "response.create",
                 "response": {
-                    "modalities": ["audio"],
+                    "modalities": ["text"],
                     "instructions": "Please respond in a friendly manner."
                 }
             }
