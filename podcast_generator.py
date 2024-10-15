@@ -212,7 +212,7 @@ async def send_audio_and_receive_response(audio_base64, speaker, history, instru
                 }
             ]
 
-    history_response.extend(previous_messages)
+            history_response.extend(previous_messages)
 
     print(history_response)
 
